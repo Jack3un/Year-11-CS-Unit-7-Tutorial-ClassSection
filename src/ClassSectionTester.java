@@ -59,7 +59,7 @@ public class ClassSectionTester {
     // Test 4
     public void TestForYearLevel() {
         setUp();
-        assertEquals("Make sure year level is correct!", student1.getYearLevel(), 12);
+        assertEquals("Make sure year level is correct!", student1.getYearlevel(), 12);
         tearDown();
     }
 
@@ -103,7 +103,7 @@ public class ClassSectionTester {
     public void TestForSetYearLevel() {
         setUp();
         student1.setYearLevel(13);
-        assertEquals("Make sure that the setter method for year level is correct!", student1.getYearLevel(), 13);
+        assertEquals("Make sure that the setter method for year level is correct!", student1.getYearlevel(), 13);
         tearDown();
     }
 
